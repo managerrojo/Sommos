@@ -256,7 +256,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
         position: relative; }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #ffffff; }
@@ -633,6 +635,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       z-index: 1; /* Asegura que el contenido esté encima del video de fondo */
       /* Agrega estilos adicionales para el contenido si es necesario */
     }
+    }
+    
+    }   
     
 
 .burger:before, .burger span, .burger:after {
