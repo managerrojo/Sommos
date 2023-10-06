@@ -256,7 +256,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
         position: relative; }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #ffffff; }
