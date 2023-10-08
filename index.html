@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>sommos </title>
+  <title>Sommos-Academy</title>
 </head>
 
 <body id="particles-js">
@@ -38,10 +38,7 @@
       </div>
     </div>
     <div class="site-mobile-menu-body"></div>
-  </div>
-
-
-  
+  </div>  
   <nav class="site-nav mb-5">
     <div class="sticky-nav js-sticky-header">
       <div class="container position-relative">
@@ -99,7 +96,7 @@
 
             <div class="col-lg-6 text-center ">
 
-              <h3 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">SOMMOS TU ACADEMIA DE TRANSFORMACION, SÉ UN PRO Y VIVE DE TU PASIÓN</h3>
+              <h3 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">SOMMOS TU ACADEMIA DE COMUNICACIÓN DEFINITIVA , SÉ UN PRO Y VIVE DE TU PASIÓN</h3>
               <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-secondary">ver cursos.</a></p>
 
             </div>
@@ -112,9 +109,57 @@
       </div> <!-- /.row -->
     </div> <!-- /.container -->
 
+<!--     INSTITUCIONES QUE AVALAN -->
+    <section id="myCarousel">
+      <div class="owl-carousel" style="margin-bottom: 20px;">
+        <!-- Contenido de las cajas del carrusel -->
+        <div class="item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <svg aria-hidden="true" viewBox="0 0 512 512" width="100" title="arrows-alt-h">
+                            <path d="M377.941 169.941V216H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.568 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296h243.882v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.568 0-33.941l-86.059-86.059c-15.119-15.12-40.971-4.412-40.971 16.97z" />
+                        </svg>
+                        <p>Nombre de la Marca 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Repite esta estructura para las otras cajas -->
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+          $(".owl-carousel").owlCarousel({
+              items: 5, // Cambia el número de elementos visibles
+              loop: true,
+              margin: 10,
+              nav: false,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:1,
+                      nav:false
+                  },
+                  768:{
+                      items:3,
+                      nav:false
+                  },
+                  992:{
+                      items:5,
+                      nav:false
+                  }
+              }
+          });
+      });
+  </script>       
+    </section>
+<!--     INSTITUCIONES QUE AVALAN FIN  -->
+
   </div> <!-- /.untree_co-hero -->
-
-
   <div class="untree_co-section">
     <div class="container">
       <div class="row justify-content-center mb-3">

@@ -63,7 +63,25 @@ a.text-primary {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Display Playfair", serif;
-  color: #000; }
+  color: #black; }
+  
+  
+  #myCarousel{
+    margin-bottom: 25px;
+    background-color: #ffffff;
+  }
+  .owl-carousel {
+    margin-bottom: 20px;
+}
+
+.item {
+    padding: 10px;
+    text-align: center;
+}
+
+.item p {
+    margin-top: 10px;
+}
 
 .btn {
   padding-top: 15px;
@@ -767,7 +785,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .untree_co-section {
   padding: 100px 0;
-  position: relative; }
+  position: relative;
+  margin-top: 25px; }
   @media (max-width: 991.98px) {
     .untree_co-section {
       padding: 50px 0; } }
@@ -1373,7 +1392,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1); }
   .custom-accordion .accordion-item .accordion-body {
     padding: 20px 20px 20px 20px; }
-
+  
+.avalan{}
 .control {
   display: block;
   position: relative;
