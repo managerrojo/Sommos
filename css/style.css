@@ -67,13 +67,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   
   
   #myCarousel{
-    margin-bottom: 25px;
     background-color: #ffffff;
   }
-  .owl-carousel {
-    margin-bottom: 20px;
+/*   .owl-carousel {
+   
 }
-
+ */
 .item {
     padding: 10px;
     text-align: center;
