@@ -24,6 +24,25 @@ body {
     opacity: 1;
     visibility: visible; }
 
+    .mienbro {
+      text-align: center;
+    }
+    
+    .social-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .social-info a .icon-instagram {
+      margin-right: 10px; /* Ajusta el margen según tus preferencias */
+    }
+    .mienbro p{
+      font-size: small;
+      font-style: italic;
+    }
+      
 .text-black {
   color: #000000 !important; }
 
