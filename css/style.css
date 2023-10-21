@@ -24,6 +24,11 @@ body {
     opacity: 1;
     visibility: visible; }
 
+    .text-color{
+      color:#ff8b00 ;
+      background-color: #6666669e;
+      border-radius: 20px;
+    }
     .mienbro {
       text-align: center;
       margin-top: -45px;
@@ -122,9 +127,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     .btn.btn-primary:hover {
       border-color: #1573e8;
       background: #1573e8; }
-  .btn.btn-secondary {
-    background: #00aeff;
-    border-color: #00aeff; }
+      .btn.btn-secondary {
+        background: #ff8b00;
+        border-color: #00aeff;
+      }
+      /* Estilo para el logotipo */
+.logo img {
+  max-width: 150px; /* Ajusta el ancho máximo según tus necesidades */
+  height: auto; /* Esto mantiene la proporción del logotipo */
+  margin-top: -28px;
+}
+}
+
+/* Estilo para ocultar el texto "sommos" */
+.logo span {
+  display: none;
+}
+
     .btn.btn-secondary:hover {
       border-color: #14b4ff;
       background: #14b4ff; }
@@ -277,9 +296,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     z-index: 9;
     cursor: pointer; }
 
-.site-nav {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+    .site-nav {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      background-color: #0a5cfe;
+    }
   .site-nav h1 {
     margin: 0;
     padding: 0;
@@ -774,7 +795,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     font-weight: 700;
     letter-spacing: .1rem; }
   .untree_co-hero .heading, .bg-img .heading {
-    font-size: 45px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.4; }
     @media (max-width: 991.98px) {
