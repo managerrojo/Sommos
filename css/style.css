@@ -93,14 +93,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   
   #myCarousel{
     background-color: #ffffff;
+    margin-top: -118px;
   }
-/*   .owl-carousel {
-   
+   .owl-carousel {
 }
- */
+ 
 .item {
     padding: 10px;
     text-align: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.item {
+  width: 150px;
+  height: auto;
+  padding: 0;
 }
 
 .item p {

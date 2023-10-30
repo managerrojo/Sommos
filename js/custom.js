@@ -4,23 +4,26 @@ $(document).ready(function(){
 		loop: true,
 		margin: 10,
 		nav: false,
-		responsiveClass:true,
-		responsive:{
-			0:{
-				items:1,
-				nav:false
+		autoplay: true, // Activa la reproducción automática
+		autoplayTimeout: 2000, // Establece el tiempo de espera en milisegundos (3 segundos en este caso)
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 2,
+				nav: false
 			},
-			768:{
-				items:3,
-				nav:false
+			768: {
+				items: 3,
+				nav: false
 			},
-			992:{
-				items:5,
-				nav:false
+			992: {
+				items: 5,
+				nav: false
 			}
 		}
 	});
 });
+
 
 
 AOS.init({
