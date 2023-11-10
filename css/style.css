@@ -1138,8 +1138,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .pricing {
   text-align: center;
-  padding: 40px;
-  border: 1px solid #efefef;
+  padding: 15px;
+  border: 1px solid #f5dd01;
   border-radius: 4px; }
   .pricing .pricing-plan-title {
     color: #136ad5; }
@@ -1352,8 +1352,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     bottom: -50px;
     left: -50px; }
 
+.img-fluid{
+  border-radius: 10px 10px 0 0px;
+}
+.precioscards{
+  border-radius: 10px;
+  background-color: #0083fe75;
+
+}
 .custom-media {
   background: #ffffff;
+  border-radius: 10px;
   -webkit-box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1); }
   .custom-media h3 {
