@@ -670,6 +670,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   #sticky-wrapper.is-sticky .sticky-nav .site-menu > li.active a {
     color: #136ad5 !important; }
 
+
+/* video bckground */
+
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenido {
+  position: relative;
+  z-index: 1; /* Asegura que el contenido esté encima del video de fondo */
+  /* Agrega estilos adicionales para el contenido si es necesario */
+}  
+
+
 /* Burger */
 .burger {
   width: 28px;
@@ -678,31 +705,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   position: relative; }
   .burger.light:before, .burger.light span, .burger.light:after {
     background: #ffffff; }
-
-    .video-background {
-      position: relative;
-      width: 100%;
-      height: 100vh; /* Ajusta la altura según tus necesidades */
-      overflow: hidden;
-    }
-    
-    .video-background video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    
-    .contenido {
-      position: relative;
-      z-index: 1; /* Asegura que el contenido esté encima del video de fondo */
-      /* Agrega estilos adicionales para el contenido si es necesario */
-    }
-    }
-    
-    }   
     
 
 .burger:before, .burger span, .burger:after {
