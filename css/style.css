@@ -104,11 +104,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     text-align: center;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.item {
+/* .item {
   width: 150px;
   height: auto;
   padding: 0;
-}
+} */
 
 .item p {
     margin-top: 10px;
