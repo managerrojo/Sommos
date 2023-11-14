@@ -1141,6 +1141,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .pricing {
   text-align: center;
   padding: 15px;
+  background-color: #e6c40393;
   border: 1px solid #f5dd01;
   border-radius: 4px; }
   .pricing .pricing-plan-title {
@@ -1359,7 +1360,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 .precioscards{
   border-radius: 10px;
-  background-color: #f8f2f2;
 
 }
 .custom-media {
