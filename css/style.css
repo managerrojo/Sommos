@@ -96,19 +96,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     background-color: #ffffff;
     margin-top: -68px;
   }
-   .owl-carousel {
-}
+
  
 .item {
     padding: 10px;
     text-align: center;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-/* .item {
-  width: 150px;
-  height: auto;
-  padding: 0;
-} */
+
 
 .item p {
     margin-top: 10px;
@@ -138,13 +133,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         background: #ff8b00;
         border-color: #00aeff;
       }
-      /* Estilo para el logotipo */
+    
 .logo img {
-  max-width: 150px; /* Ajusta el ancho máximo según tus necesidades */
-  height: auto; /* Esto mantiene la proporción del logotipo */
+  max-width: 150px; 
+  height: auto;
   margin-top: -28px;
 }
-}
+
 
 /* Estilo para ocultar el texto "sommos" */
 .logo span {
@@ -677,6 +672,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 
 .video-background {
+  padding: 0;
+  margin: 0%;
   position: relative;
   width: 100%;
   height: 100vh; /* Ajusta la altura según tus necesidades */
@@ -1335,7 +1332,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .section-title .heading {
   font-size: 30px;
   font-weight: 700; }
+
+
+
+
   @media (max-width: 991.98px) {
+    .head-content  {
+      display: flex;
+      flex-direction: column-reverse; /* invierte el orden del head content  */
+    }
+    
     .section-title .heading {
       font-size: 20px; } }
 
@@ -1662,6 +1668,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
   @media (max-width: 767.98px) {
+    .head-content  {
+      display: flex;
+      flex-direction: column-reverse; /* invierte el orden del head content  */
+    }
     .owl-single .owl-nav {
       display: none; } }
   .owl-single .owl-nav .owl-prev, .owl-single .owl-nav .owl-next {
