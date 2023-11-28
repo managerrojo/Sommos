@@ -670,6 +670,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 /* video bckground */
 
+.Texto-columa{
+  margin-top: 18rem;
+  z-index: 100;
+
+}
+
 
 .video-background {
   padding: 0;
@@ -1338,8 +1344,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
   @media (max-width: 991.98px) {
     .head-content  {
-      display: flex;
-      flex-direction: column-reverse; /* invierte el orden del head content  */
+      /* display: flex;
+      flex-direction: column-reverse; */ /* invierte el orden del head content  */
+
     }
     
     .section-title .heading {
@@ -1667,7 +1674,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+
   @media (max-width: 767.98px) {
+    .Texto-columa{
+      margin-top: -18rem;
+      z-index: 100;
+
+    }
     .head-content  {
       display: flex;
       flex-direction: column-reverse; /* invierte el orden del head content  */
