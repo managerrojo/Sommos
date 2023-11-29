@@ -772,6 +772,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 
 .untree_co-hero, .bg-img {
+  height: 25rem;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -791,8 +792,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative;
     z-index: 2; }
   .untree_co-hero, .untree_co-hero > .container > .row, .bg-img, .bg-img > .container > .row {
-    height: 100vh;
-    min-height: 650px; }
+    height: 66vh;
+    min-height: 422px;
+  }
     @media (max-width: 767.98px) {
       .untree_co-hero, .untree_co-hero > .container > .row, .bg-img, .bg-img > .container > .row {
         min-height: 750px; } }
