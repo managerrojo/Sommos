@@ -786,7 +786,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(19, 106, 213, 0.85);
+      background: #0000ffad;
       z-index: -0; }
   .untree_co-hero > .container, .bg-img > .container {
     position: relative;
@@ -1152,34 +1152,28 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .pricing {
   text-align: center;
   padding: 15px;
-  background-color: #e6c40393;
+  background-image:url(../images/gif/Diseño\ sin\ título\(2\)\(1\).gif);
   border: 1px solid #f5dd01;
-  border-radius: 4px; }
+  border-radius: 14px; }
   .pricing .pricing-plan-title {
-    color: #136ad5; }
+    color: #ff8b00;
+     }
   @media (max-width: 991.98px) {
     .pricing {
       padding: 40px 25px; } }
-  .pricing .pricing-img {
-    width: 90px;
-    height: 90px;
-    margin: 0 auto; }
-    .pricing .pricing-img:before {
-      position: absolute;
-      content: "";
-      background: rgba(19, 106, 213, 0.2);
-      z-index: -1;
-      width: 70px;
-      height: 70px;
-      border-radius: 50%; }
-    .pricing .pricing-img img {
-      height: 136px;
-      width: 180px;
+  .pricing .imgCard:hover {
+    margin-top: -50px;
+     }
+
+    .pricing .imgCard img {
+      height: 200px;
+      width: 200px;
+      margin-top: -81px;
    }
   .pricing .pricing-body .price {
     margin-bottom: 20px; }
     .pricing .pricing-body .price .fig {
-      color: #136ad5;
+      color: #ff8b00;
       font-size: 30px; }
 
 .staff {
