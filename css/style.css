@@ -321,14 +321,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         font-family: Arial, Helvetica, sans-serif;
         position: relative; }
         .site-nav .site-navigation .site-menu > li > a:hover {
-          color: #ffffff; }
+          color: blue; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
         padding: 5px 22px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         color: #000000;
         border-radius: 30px; }
         .site-nav .site-navigation .site-menu > li.cta-button a:hover {
-          color: #ffffff;
+          color: blue;
           background: #ffffff;
           border-color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.cta-button.active a {
@@ -840,6 +840,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     min-height: 450px; }
 
 .untree_co-section {
+
   padding: 40px 0;
   position: relative;
   margin-top: 25px; }
@@ -1730,8 +1731,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-bottom: 30px; }
 
 .site-footer {
-  background: #136ad5;
-  font-size: 14px;
+  background: blue;
+  font-size: 17px;
   color: #ffffff;
   padding: 70px 0; }
   .site-footer a {
