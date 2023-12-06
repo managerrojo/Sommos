@@ -796,6 +796,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     min-height: 422px;
   }
     @media (max-width: 767.98px) {
+      .video-background {
+        padding: 0;
+        margin: 14% 0 -51% 0;
+        position: inherit;
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+        margin-top: 4rem;
+      }
       .untree_co-hero, .untree_co-hero > .container > .row, .bg-img, .bg-img > .container > .row {
         min-height: 750px; } }
   .untree_co-hero.inner-page, .untree_co-hero.inner-page > .container > .row, .bg-img.inner-page, .bg-img.inner-page > .container > .row {
@@ -1347,8 +1356,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
   @media (max-width: 991.98px) {
     .head-content  {
-      /* display: flex;
-      flex-direction: column-reverse; */ /* invierte el orden del head content  */
+       display: flex;
+      flex-direction: column-reverse; */ /* invierte el orden del head content 
 
     }
     
