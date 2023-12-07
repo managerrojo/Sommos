@@ -336,7 +336,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         background: #ffffff;
         border-color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.active > a {
-        color: #ffffff; }
+        color: #000000; }
     .site-nav .site-navigation .site-menu .has-children {
       position: relative; }
       .site-nav .site-navigation .site-menu .has-children > a {
