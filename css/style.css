@@ -443,6 +443,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     color: #136ad5; }
   .site-nav.dark .site-navigation .site-menu > li.has-children:hover > a, .site-nav.dark .site-navigation .site-menu > li.has-children:focus > a, .site-nav.dark .site-navigation .site-menu > li.has-children:active > a {
     color: #000000; }
+  .particles-js-canvas-el{
+    margin-top: -17rem;
+  }
 
 .site-mobile-menu-close {
   display: block;
