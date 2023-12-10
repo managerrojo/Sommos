@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -444,7 +448,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .site-nav.dark .site-navigation .site-menu > li.has-children:hover > a, .site-nav.dark .site-navigation .site-menu > li.has-children:focus > a, .site-nav.dark .site-navigation .site-menu > li.has-children:active > a {
     color: #000000; }
   .particles-js-canvas-el{
-    margin-top: -17rem;
+    margin-top: -42rem;
+    position: relative;
   }
 
 .site-mobile-menu-close {
@@ -675,7 +680,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .Texto-columa{
   margin-top: 18rem;
-  z-index: 100;
+  z-index: 0;
 
 }
 
@@ -683,19 +688,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .video-background {
   padding: 0;
   margin: 0%;
-  position: relative;
+/*   position: relative; */
   width: 100%;
   height: 100vh; /* Ajusta la altura según tus necesidades */
-  overflow: hidden;
 }
 
 .video-background video {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .contenido {
@@ -799,14 +801,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     min-height: 422px;
   }
     @media (max-width: 767.98px) {
+      .col-md-8{
+        padding: 0;
+      }
       .video-background {
         padding: 0;
-        margin: 14% 0 -51% 0;
+        margin: 17% 0 -51% 0;
         position: inherit;
         width: 100%;
-        height: 20vh;
+        height: 40vh;
         overflow: hidden;
-        margin-top: 4rem;
       }
       .untree_co-hero, .untree_co-hero > .container > .row, .bg-img, .bg-img > .container > .row {
         min-height: 750px; } }
