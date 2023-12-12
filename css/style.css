@@ -93,8 +93,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 
   #myCarousel{
-    background-color: #ffffff;
-    margin-top: -68px;
+    background-color: #ffffff00;
+    margin-top: 4rem;
   }
 
  
@@ -444,7 +444,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .site-nav.dark .site-navigation .site-menu > li.has-children:hover > a, .site-nav.dark .site-navigation .site-menu > li.has-children:focus > a, .site-nav.dark .site-navigation .site-menu > li.has-children:active > a {
     color: #000000; }
   .particles-js-canvas-el{
-    margin-top: -17rem;
+    margin-top: -7.5rem;
   }
 
 .site-mobile-menu-close {
@@ -680,22 +680,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 
-.video-background {
+/* .video-background {
   padding: 0;
   margin: 0%;
   position: relative;
   width: 100%;
-  height: 100vh; /* Ajusta la altura según tus necesidades */
+  height: 100vh;
   overflow: hidden;
-}
+} */
 
 .video-background video {
   position: absolute;
-  top: 0;
+ /*  top: 0; */
   left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 100vh;
+
 }
 
 .contenido {
@@ -1360,8 +1360,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   @media (max-width: 991.98px) {
     .head-content  {
        display: flex;
-      flex-direction: column-reverse; */ /* invierte el orden del head content 
-
+      flex-direction: column-reverse;
     }
     
     .section-title .heading {
@@ -1698,8 +1697,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
     }
     .head-content  {
+      padding-top: 5rem;
       display: flex;
-      flex-direction: column-reverse; /* invierte el orden del head content  */
+      flex-direction: column-reverse; 
     }
     .owl-single .owl-nav {
       display: none; } }
