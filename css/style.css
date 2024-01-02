@@ -1196,6 +1196,63 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Display Playfair", serif;
   color: #136ad5; }
 
+  .cardService1{
+    text-align: center;
+    padding: 15px;
+    background-image:url(../images/1x/1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardService1 .pricing-plan-title {
+    color: #ff8b00;
+     }
+  .cardService2{
+    text-align: center;
+    padding: 15px;
+    background-image:url(../images/1x/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardService2 .pricing-plan-title {
+    color: #ff8b00;
+     }
+  .cardService3{
+    text-align: center;
+    padding: 15px;
+    background-image:url(../images/1x/3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardService3 .pricing-plan-title {
+    color: #ff8b00;
+     }
+     .cardService4{
+      text-align: center;
+      padding: 15px;
+      background-image:url(../images/1x/1\(1\).png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .cardService4 .pricing-plan-title {
+      color: #ff8b00;
+       }
+       .cardService5{
+        text-align: center;
+        padding: 15px;
+        background-image:url(../images/1x/3\(1\).png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .cardService5 .pricing-plan-title {
+        color: #ff8b00;
+         }
+
+
 .pricing {
   text-align: center;
   padding: 15px;
