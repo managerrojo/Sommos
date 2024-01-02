@@ -35,6 +35,10 @@ body {
       font-weight: 900;
       line-height: 93%;
     }
+    .text-colorCard{
+      color:#ffffff ;
+      line-height: 93%;
+    }
     .mienbro {
       text-align: center;
       margin-top: -45px;
