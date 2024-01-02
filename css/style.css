@@ -27,7 +27,9 @@ body {
   body.offcanvas-menu:before {
     opacity: 1;
     visibility: visible; }
-
+    .parraColor{
+      color: blue;
+    }
     .text-color{
       color:#ffffff ;
       font-weight: 900;
